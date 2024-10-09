@@ -47,8 +47,6 @@ public class  Steps {
         if (driver != null) {
             driver.quit();
         }
-//        BlobStorageUtil blobStorageUtil = new BlobStorageUtil();
-//        blobStorageUtil.uploadDirectory("target/surefire-reports");
     }
 
 
