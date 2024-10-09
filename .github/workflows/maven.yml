@@ -29,4 +29,6 @@ jobs:
         cache: maven
     - name: Test Run on QA env
       run: mvn test -Drp.attributes="one:qa;two:all"
+    - name: Test Run on dev env
+      run: mvn test -Drp.attributes="one:dev;two:all"
 
