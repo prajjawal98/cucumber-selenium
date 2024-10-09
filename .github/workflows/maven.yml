@@ -27,8 +27,6 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-    - name: Test Run on Dev env
-      run: mvn test -Drp.attributes="one:dev;two:all"
     - name: Test Run on QA env
       run: mvn test -Drp.attributes="one:qa;two:all"
 
